@@ -1,7 +1,7 @@
 spring:
   application:
-    name: reservation-service
+    name: log-service
   main:
     allow-bean-definition-overriding: true
 server:
-  port: 9093
+  port: 9094
