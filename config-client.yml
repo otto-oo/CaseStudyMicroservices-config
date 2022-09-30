@@ -8,10 +8,10 @@ spring:
       hibernate:
         dialect: org.hibernate.dialect.PostgreSQLDialect
     hibernate:
-      ddl-auto: update
+      ddl-auto: create
     show-sql: true
   datasource:
-    url: jdbc:postgresql://host.docker.internal:5435/CaseStudyMicroservices
+    url: jdbc:postgresql://host.docker.internal:5435/caseStudyDB
     username: postgres
     password: admin
     driver-class-name: org.postgresql.Driver
